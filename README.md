@@ -2,28 +2,21 @@
 
 Agente inteligente baseado em IA que fornece recomendações personalizadas de filmes usando **Agno** e **OpenAI**.
 
-## Setup Rápido
+## Setup Rápido 
 
-```bash
-# Criar e ativar venv
-python3 -m venv .venv
-source .venv/bin/activate
+```powershell
+# 1. Criar e ativar o ambiente virtual
+python -m venv .venv
+.venv\Scripts\Activate.ps1
 
-# Instalar dependências
-pip install agno openai "python-dotenv[cli]" ddgs
-```
+# 2. Instalar dependências
+pip install -r requirements.txt
 
-> ⚠️ **Recomendado:** Para melhor controle de versões, use:
-> ```bash
-> pip install -r requirements.txt
-> ```
+# 3. Configurar a chave da API no arquivo .env
+Set-Content .env 'OPENAI_API_KEY="sua_chave_aqui"'
 
-```bash
-# Configurar API key
-echo "OPENAI_API_KEY=sua_chave_aqui" > .env
-
-# Executar
-dotenv run python main.py
+# 4. Executar
+python main.py
 ```
 
 ## Estrutura
