@@ -1,0 +1,17 @@
+# Ambiente virtual
+.venv/
+
+# Variáveis de ambiente (NUNCA comitar!)
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Arquivos de contexto / temporários
+repomix-output.xml
