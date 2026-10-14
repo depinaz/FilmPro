@@ -13,7 +13,7 @@ python -m venv .venv
 pip install -r requirements.txt
 
 # 3. Configurar a chave da API no arquivo .env
-Set-Content .env 'OPENAI_API_KEY="sua_chave_aqui"'
+Set-Content .env 'GEMINI_API_KEY="sua_chave_aqui"'
 
 # 4. Executar
 python main.py
