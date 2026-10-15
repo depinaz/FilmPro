@@ -1,6 +1,6 @@
 # FilmPro - Agente de Recomendação de Filmes
 
-Agente inteligente baseado em IA que fornece recomendações personalizadas de filmes usando **Agno** e **OpenAI**.
+Agente inteligente baseado em IA que fornece recomendações personalizadas de filmes usando **Agno** e **Google Gemini**.
 
 ## Setup Rápido 
 
